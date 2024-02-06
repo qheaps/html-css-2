@@ -1,0 +1,45 @@
+header {
+    background-color: rgb(60, 60, 60);
+    width: 100%;
+    height: 200px;
+}
+
+#content-side {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+}
+
+#right {
+    width: 15vw;
+    height: 100vh;
+    background-color: lightgray;
+}
+
+#left {
+    width: 15vw;
+    height: 100vh;
+    background-color: lightgray;
+}
+
+footer {
+    background-color: black;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#foot-right {
+    width: 15vw;
+    height: 100%;
+    background-color: lightgray;
+}
+
+#foot-left {
+    width: 15vw;
+    height: 100%;
+    background-color: lightgray;
+}
